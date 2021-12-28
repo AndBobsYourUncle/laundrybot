@@ -1,12 +1,9 @@
 /*
- This example connects to an unencrypted WiFi network.
- Then it prints the MAC address of the WiFi module,
- the IP address obtained, and other network details.
+ This connects to Wifi, and an MQTT broker, and publishes acceleromter data.
+ It also exposes a way to flash new programs over OTA and Wifi.
 
- created 13 July 2010
- by dlf (Metodo2 srl)
- modified 31 May 2012
- by Tom Igoe
+ created 27 December 2021
+ by andbobsyouruncle
  */
 #include <SPI.h>
 #include <WiFiNINA.h>
